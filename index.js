@@ -29,3 +29,14 @@ function filterOddNumbers(numbers){
 }
 
 console.log(filterOddNumbers([1,2,3,4,5,6,7,8,9]))
+
+//write a function named countWords that takes a string and returns the number of words in the string.
+
+function countWords(str){
+    if(!str.trim()) return 0;
+    return str.trim().split(/\s+/).length;
+}
+
+console.log(countWords("Hey js"));
+console.log(countWords("This is function count words"));
+console.log(countWords(""));
