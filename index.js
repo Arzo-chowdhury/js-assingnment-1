@@ -21,3 +21,11 @@ function findMax(arr){
     return Math.max(...arr);
 }
 console.log(findMax([23,22,25,27,28.50,200,150]));
+
+//write a function named filterOddNumbers that takes an array of numbers and a new array containing only the odd numbers .
+
+function filterOddNumbers(numbers){
+    return numbers.filter(num => num % 2 !== 0);
+}
+
+console.log(filterOddNumbers([1,2,3,4,5,6,7,8,9]))
