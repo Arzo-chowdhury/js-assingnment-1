@@ -40,3 +40,11 @@ function countWords(str){
 console.log(countWords("Hey js"));
 console.log(countWords("This is function count words"));
 console.log(countWords(""));
+
+//write a function named removeDuplicates that takes an array and returns a new array with duplicates elements removed.
+
+function removeDuplicates(arr) {
+    return [...new Set(arr)];
+}
+
+console.log(removeDuplicates([1,2,3,4,4,5,6,7,8,9]));
