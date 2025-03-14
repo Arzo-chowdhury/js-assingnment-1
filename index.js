@@ -14,3 +14,10 @@ function isEven(num){
 }
 console.log(isEven(4));
 console.log(isEven(9));
+
+//write a function named findMax that takes an array of numbers and returns the largest number of the array.
+
+function findMax(arr){
+    return Math.max(...arr);
+}
+console.log(findMax([23,22,25,27,28.50,200,150]));
